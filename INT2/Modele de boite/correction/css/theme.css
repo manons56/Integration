@@ -1,0 +1,53 @@
+
+/* *****************************************************************
+GENERALITES
+***************************************************************** */
+
+body {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 2.5em;
+}
+
+/* *****************************************************************
+CONTENT
+***************************************************************** */
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1em;
+}
+
+.box {
+    background-color: #CCC;
+}
+
+.box1 {
+    margin: 2em;
+}
+
+.box2 {
+    padding: 2em;
+}
+
+.box3 {
+    padding: 2em;
+    border: 5px solid #DD5735;
+}
+
+.box4 {
+    padding: 2em;
+    border: 5px solid #DD5735;
+    width: 500px;
+}
+
+.box5 {
+    padding: 2em;
+    border: 5px solid #DD5735;
+    width: 500px;
+    box-sizing: border-box;
+}

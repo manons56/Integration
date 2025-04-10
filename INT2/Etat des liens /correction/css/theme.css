@@ -1,0 +1,36 @@
+.container {
+    background-color: white;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+.default {
+    text-decoration: none;
+}
+
+.visited:visited {
+    text-decoration: underline;
+    background-color: #444;
+}
+
+.survol:hover {
+    background-color: red;
+    color: white;
+}
+
+.clic:active {
+    background-color: blue;
+    color: white;
+}
+
+.clavier:focus {
+    background-color: red;
+    color: white;
+    outline: 1px solid;
+    outline-color: #0000FF;
+}

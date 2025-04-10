@@ -1,0 +1,27 @@
+.solid {
+    border: solid 3px #800080;
+}
+
+.dotted {
+    border: dotted 5px #ff0000;
+}
+
+.dashed {
+    border: dashed 5px green;
+}
+
+.double {
+    border: double 5px #ff69b4;
+}
+
+.left {
+    border-left: solid orange 5px;
+}
+.arrondi {
+    border: solid salmon 3px;
+    border-radius: 10px;
+}
+
+.img-border {
+    border-radius: 50%;
+}

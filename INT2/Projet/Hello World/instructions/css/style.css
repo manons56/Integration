@@ -1,0 +1,253 @@
+/* .............GENERALITES............*/
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color : white;
+    font-family : Lato, sans-serif;
+    color :  #333;
+    line-height : 1.5;
+    margin:0;
+}
+
+
+/* .............HEADER............*/
+
+.header {
+    text-align:center;
+}
+
+
+
+nav{
+    background-color:#007eb3;
+   
+}
+
+ul{
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type : none;
+   
+
+}
+
+li{
+    color:white; 
+    padding:0.5em;
+    
+}
+
+
+li a {
+    text-decoration:none;
+    color :white;
+}
+
+/* .............MAIN............*/
+
+.container{
+    width:900px;
+    margin:auto;
+}
+
+
+h1{
+    text-align:center;
+    color :#007eb3 ;
+    font-weight:normal;
+    border-bottom : 1px dotted  #007eb3;
+    font-size: 2.813rem
+}
+
+h2{
+    text-transform:uppercase;
+    font-weight:normal;
+    font-size : 1.875rem;
+}
+
+h3{
+    font-weight:normal;
+     font-size : 1.563rem;
+}
+
+
+.img-vienne{
+    float:left;
+    padding-right: 1em;
+    padding-bottom:2em;
+    width:49%;
+}
+
+.img-marrakech{
+    float:right;
+    padding-left: 1em;
+    padding-bottom:2em;
+    width:49%;
+}
+
+
+.clear{
+    clear:both;
+}
+
+section {
+    margin-top : 1.875px;
+    margin-bottom:1.875px;
+}
+
+.article-marrakech{
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+}
+
+
+.ville-rouge{
+    color:red;
+}
+
+.ville-ocre{
+    color:#CD8C56;
+}
+
+.button{
+    background-color:#007eb3;
+    border-radius:6px;
+    text-decoration : none;
+    color: white;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    
+}
+
+adress{
+    font-style:italic;
+}
+
+.hyperlien{
+    font-style:italic;
+    text-decoration : none;
+    color: #007eb3;
+}
+
+
+.fa-phone,
+.fa-envelope{
+    color:black;
+}
+
+
+
+
+/* .............TABLEAU............*/
+
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+
+tr, 
+td, 
+th{
+   
+    border: 1px solid #DDD;
+    padding: 1em;
+ 
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+
+
+
+
+/* .............A PROPOS............*/
+
+.bg-image{
+   
+    background-image:url(../ressources/fond.jpg);
+    background-size : cover;
+    background-position:center;
+    
+    
+}
+
+
+
+
+
+.a-propos-fond-blanc{
+    width : 50%;
+    background-color: white;
+}
+
+
+
+
+
+/* .............FORMULAIRE............*/
+
+
+.field input, 
+textarea{
+    padding:1em;
+    border-radius: 6px ;
+    border : 1px solid rgba(0,0,0,0.2);
+   
+   
+}
+
+
+.field{
+    padding:0.5em;
+   
+  
+}
+
+
+.toolbar{
+    text-align:center;
+}
+
+
+.formulaire-partie-gauche{
+    float:left;
+    width:50%;
+   
+}
+
+
+input{
+    width:50%;
+    
+}
+
+
+
+
+
+/* .............FOOTER............*/
+
+.footer {
+    margin-top:1em;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+    background-color: #007eb3;
+}
+
+
+.footer a {
+    
+    color : white;
+}
+
+
+footer img {
+    width:5%;
+}

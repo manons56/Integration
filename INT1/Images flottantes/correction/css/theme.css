@@ -1,0 +1,18 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.img-left {
+    float: left;
+    margin-right: 1em;
+}
+
+.img-right {
+    float: right;
+    margin-left: 1em;
+}
+
+.clear {
+    clear: both;
+}

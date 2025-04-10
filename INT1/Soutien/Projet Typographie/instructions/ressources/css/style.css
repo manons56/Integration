@@ -1,0 +1,172 @@
+/* ..........Généralités............*/
+
+html {
+    width : 420px;
+    margin : auto ;
+}
+
+body {
+    font-family :"cardo";
+    line-height : 1.5;
+}
+
+
+
+
+/* ...........Header ...............*/
+
+h1 {
+    text-align : center;
+    font-size : 4em;
+    line-height: 2;
+    text-transform : uppercase;
+    font-family : "specialelite";
+}
+
+header {
+    border-bottom : 1px black solid;
+}
+
+
+
+header blockquote p {
+    width : 11em;
+}
+
+
+
+
+/*..................Main...........*/
+
+.underline-dashed {
+    text-decoration : underline dashed black 1px;
+    text-underline-offset: 0.4em;
+}
+
+
+
+h2 {
+    text-transform : uppercase;
+    font-size : 2.5em;
+    line-height : 1.2;
+    font-family : "specialelite";
+}
+
+
+
+h3
+{
+    font-size : 1.5em;
+    line-height : 1;
+    font-family : "specialelite";
+}
+
+
+
+h3::before {
+	content: "❧ ";
+}
+
+
+
+main p::first-letter{
+   float:left;
+   font-size : 2em;
+   font-family :"specialelite";
+   margin-right: 0.5em;
+}
+
+
+
+p{
+     text-align : justify;
+}
+
+
+
+.font-style-italic {
+    font-style : italic;
+}
+
+
+
+.font-weight-bold{
+    font-weight : bold;
+}
+
+
+
+
+
+/* ..................Footer............*/
+
+footer {
+    border-top : 1px black solid ;
+}
+
+
+.caractere-bas-page{
+    text-align: center;
+    font-size : 3em;
+}
+
+
+footer blockquote p {
+    width : 18em;
+}
+
+
+/*...............Citations...........*/
+
+
+blockquote p {
+    font-style:italic;
+    text-align:left;
+    font-size : 1.3em;
+}
+
+
+blockquote p::before {
+    content: "« ";
+}
+
+blockquote p::after {
+    content: " »";
+}
+
+blockquote {
+    text-align:center
+}
+
+
+
+
+/* ..................Polices...........*/
+
+@font-face {
+    font-family: 'cardo';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/cardo/cardo-bold.woff) format('truetype');
+}
+
+@font-face {
+    font-family: 'cardo';
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/cardo/cardo-italic.woff) format('truetype');
+}
+
+@font-face {
+    font-family: 'cardo';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/cardo/cardo-regular.woff) format('truetype');
+}
+
+@font-face {
+    font-family: 'specialelite';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/specialelite/SpecialElite.woff) format('truetype');
+}

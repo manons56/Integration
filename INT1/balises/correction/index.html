@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang ="fr">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name= "description" content= "Les principales balises HTML" />
+        <title>
+            Les principales balises
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <h1> Les principales balises (titre principal placé dans l'élément &lt;H1&gt;)</h1>
+        <h2> Les balises de type bloc (sous titre placé dans l'élement &lt; h2 &gt;)</h2>
+        <h3 id="sous-titre-3"> Un sous titre de niveau 3 </h3>
+        <p>Un paragraphe</p>
+        <p> Un second paragraphe séparé du premier par une marge par défaut</p>
+        <pre>
+            Ce texte est pré-formaté
+        </pre>
+        <!-- Un commentaire --> 
+        <pre> &lt; !-- Un commentaire en html -- &gt; </pre>
+        <div> L'élement div est générique sans aucun sens particulier, il est utilisé pour la structuration</div>
+        <div>Un second élément div n'est pas séparé du précédent par une marge (par défaut)</div>
+        <h3> Les listes (un autre sous titre de niveau 3) </h3>
+        <ol>
+            <li>une</li>
+            <li>liste</li>
+            <li>ordonné</li>
+        </ol>
+        <ul>
+            <li>une</li>
+            <li>liste</li>
+            <li>non ordonné</li>
+        </ul>
+        <dl>
+            <dt> terme 1</dt>
+            <dd>definition 1</dd>
+            <dt>terme 2</dt>
+            <dd> définition 2</dd>
+         </dl>
+         
+            <ul>
+                <li> 1. Une</li>
+                <li> 2. liste
+                    <ul>
+                      <li> 2.1 avec une</li>
+                      <li>2.2 liste imbriquée</li>
+                    </ul>
+                </li>
+                <li>attention l'élement ul ne peut contenir que les élements li / par contre un élement li peut de nouveau contenir un élement ul</li>
+            </ul>
+       <h2> Les balises de type inline (un autre sous titre de niveau 2)</h2>
+       
+       <p> Une <stong>porte de texxte importante</stong> placé dans l'élement strong</p>
+       
+       <p>Une <em>portion de texte emphasée</em> placée dans l'élement em</p>
+       
+       <p> Un hyperlien vers <a href="https://3wa.fr">3W Academy</a>.</p>
+       <p> il existe différents type d'hyperliens:</p>
+       <ul>
+           <li>Un site internet avec <a href="" target = "_blank"> 3wa Academy</a></li>
+           <li>Une autre page du site : <a href="" title"pour nous contacter"></a>Nous contacter</li>
+           <li> Une adresse email : <a href="mailto:contact@3wa.fr">contact@3wa.fr</a></li>
+           <li> un numéro de téléphone : <a href="tel:+33xxxx">06 27374782</a></li>
+           <li> une ancre sur la page : <a href="#top">Haut de la page</a>Permet en cliquant sur le lien de retourner direct en haut de la page </li>
+           <li> Une  ancre vers un élément HTML de la page : <a href="#sous-titre-3"></a></li>
+       </ul>
+       <p>Une image <img src ="image/logo-3wa.png" alt=""/> dans un paragraphe (observer l'alignement vertical). L'attribut alt est obligatoire, sert de description pour les malvoyants, il faut vraiment mettre ce que répresénte l'image</p>
+       <p> une image dans un lien <a href="" title=""> <img src=""  alt="" /> </a></p>
+       
+       <p>Un paragraphe contenant un saut <br /> de ligne </p>
+       
+       <p> une abbréviation avec l'élément abbr : le code d'une page web est écrit en 
+       <abbr title="hypertexte markup language">HTML</abbr>avec l'attribut title</p>
+       
+       <p>Une <dfn>définition</dfn> avec l'élément dfn</p>
+       
+       <p> Utilisation de l'élément sub pour écrire les indices, par exemple pour une formule chimique : 4 NH <sub>3</sub></p>
+       
+       <p> Utilisation de l'élément sup pour les exposants , par exe : 3 <sup>2</sup> = 9 ou le 3<sup>ème</sup>arrondissement</p>
+       
+        <p>
+            Utilisation de l'élément &lt;ins&gt; pour indiquer <ins>une portion texte insérée</ins> et de l'élément &lt;del&gt; pour indiquer <del>une portion de texte supprimée</del>.
+        </p>
+       
+       <p> <marquee> toto dhejfju</marquee></p>
+       
+       <p> l'élement <mark>mark</mark> sert à mettre du texte en surbrillance pour la recherche d'un mot clé dans le contenu d'un site web. Mark ne doit pas être utilisé pour fiare joli : il faut utiliser CSS pour ca </p>
+       
+       <p>
+            Un exemple de code informatique (ici du JavaScript) dans un élément &lt;code&gt; et un élément &lt;pre&gt;:
+        </p>
+        <pre><code>
+            for (let i = 0; i &lt; 5; i++) {
+                console.log(i);
+            }
+        </code></pre>
+       
+        <p>
+            Ce <span>texte est contenu dans un élément &lt;span&gt;</span>. Cet élément n'a pas de sens particulier, il est systématiquement utilisé avec du style CSS.
+        </p>
+        
+       
+       <h2> Bonnes pratiques</h2>
+        <p>Les titres nous permettent de structurer notre texte et de faciliter la lecture. Ils sont également importants pour optimiser le référencement naturel de la page web.</p>
+        <p>Il ne faut pas sauter des niveaux de titre : on commence toujours par un titre de niveau 1, puis un titre de niveau 2, puis un titre de niveau 3 et ainsi de suite.</p>
+        <p>Sauter un niveau de titre intermédiaire constitue une mauvaise pratique : par exemple un titre de niveau 1, suivi d'un titre de niveau 3.</p>
+        <p>Toujours placer les éléments de type inline dans un élément de type bloc (et jamais l'inverse)</p>
+       
+       <h2> Licence </h2>
+         <p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png"></a></p>
+	    <p>Ce matériel pédagogique est la propriété de la <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique" target="_blank">3W Academy</a>. Cet exercice a été réalisé par <a href="https://www.consultantweb.eu" target="_blank">Christiane Dumont</a> et Stephane Pereck.</p>
+    
+    </body>
+</html>

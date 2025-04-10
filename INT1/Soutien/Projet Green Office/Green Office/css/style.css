@@ -1,0 +1,49 @@
+html { 
+    background-image: url("../img/fond.png") 
+    
+}
+
+body{
+    width : 750px ;
+    margin:auto;
+     background-color : white;
+}
+
+header {
+    background-color : #b8cb21;
+}
+
+.li-header{
+    display : inline-block ; 
+    text-transform : uppercase;
+    text-decoration : underline ;
+    
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1{
+    text-align : center;
+}
+
+a {
+    background-color :#b8cb21 ;
+    text-decoration : none;
+    color : black ;
+    padding : 0.5em;
+ 
+}
+
+
+
+
+.float {
+    float : left ;
+    margin : 0.5em;
+}
+
+.clear{
+    clear : both;
+}
